@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="697.0" prefWidth="1248.0" styleClass="backgroundLogin" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lifetime.FXMLPainelController">
+   <children>
+      <AnchorPane fx:id="painelPrincipal" prefHeight="658.0" prefWidth="1210.0">
+         <children>
+            <Button fx:id="btnDados" layoutX="215.0" layoutY="32.0" mnemonicParsing="false" onAction="#botaoMeusDados" prefHeight="34.0" prefWidth="201.0" styleClass="btnDados" stylesheets="@style.css" text="Meus Dados" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="txtPainel" layoutX="507.0" layoutY="32.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="123.0" styleClass="btnRelatorio" stylesheets="@style.css" text="Painel" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnRelatorio" layoutX="702.0" layoutY="32.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="201.0" styleClass="btnSaude" stylesheets="@style.css" text="Relatórios" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="24.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="imgLgo" fitHeight="123.0" fitWidth="137.0" layoutX="22.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/logo.png" />
+               </image>
+            </ImageView>
+            <Line endX="1127.0" endY="-9.0" layoutX="115.0" layoutY="129.0" startX="-115.0" startY="-9.0" stroke="WHITE" />
+            <Text fx:id="txtComo" fill="#e85454" layoutX="453.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Como" wrappingWidth="141.13671875">
+               <font>
+                  <Font name="Verdana" size="36.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnSair" layoutX="22.0" layoutY="658.0" mnemonicParsing="false" styleClass="btnSair" stylesheets="@style.css" text="Sair" textFill="WHITE" />
+            <Text fx:id="txtEstou" fill="WHITE" layoutX="570.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Estou" wrappingWidth="102.375">
+               <font>
+                  <Font name="Verdana" size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="txtHoje" fill="#e85454" layoutX="683.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hoje?">
+               <font>
+                  <Font name="Verdana" size="36.0" />
+               </font>
+            </Text>
+            <Rectangle fx:id="retPainel" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="367.0" layoutX="258.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="728.0" />
+            <Text fx:id="txtPainel_1" fill="#091494" layoutX="408.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Como está meu humor hoje?">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button id="btnBem" fx:id="btnFeliz" layoutX="734.0" layoutY="287.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" text="Button" />
+            <Button id="btnTedio" fx:id="btnTedio" layoutX="770.0" layoutY="287.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="2.0" text="Button" />
+            <Button id="btnMal" fx:id="btnRuim" layoutX="806.0" layoutY="287.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="5.0" text="Button" />
+            <Text fx:id="txtPainel_2" fill="#091494" layoutX="408.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Você dormiu bem na ultima noite?" wrappingWidth="302.7373046875">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button id="btnBem" fx:id="btnFeliz2" layoutX="734.0" layoutY="341.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" text="Button" />
+            <Button id="btnTedio" fx:id="btnTedio2" layoutX="770.0" layoutY="341.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="2.0" text="Button" />
+            <Button id="btnMal" fx:id="btnRuim2" layoutX="806.0" layoutY="341.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="5.0" text="Button" />
+            <Text fx:id="txtPainel_3" fill="#091494" layoutX="408.0" layoutY="411.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Como você está se sentido hoje fisicamente?" wrappingWidth="275.19921875">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button id="btnBem" fx:id="btnFeliz3" layoutX="734.0" layoutY="402.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" text="Button" />
+            <Button id="btnTedio" fx:id="btnTedio3" layoutX="770.0" layoutY="402.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="2.0" text="Button" />
+            <Button id="btnMal" fx:id="btnRuim3" layoutX="806.0" layoutY="402.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="5.0" text="Button" />
+            <Text fx:id="txtPainel_4" fill="#091494" layoutX="405.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Você se alimentou de maneira saudavel hoje?" wrappingWidth="308.7373046875">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button id="btnBem" fx:id="btnFeliz4" layoutX="734.0" layoutY="468.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" text="Button" />
+            <Button id="btnTedio" fx:id="btnTedio4" layoutX="770.0" layoutY="468.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="2.0" text="Button" />
+            <Button id="btnMal" fx:id="btnRuim4" layoutX="806.0" layoutY="467.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="5.0" text="Button" />
+            <Text fx:id="txtPainel_5" fill="#091494" layoutX="408.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Como está seu nivel de estresse hoje?" wrappingWidth="302.7373046875">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button id="btnBem" fx:id="btnFeliz5" layoutX="734.0" layoutY="534.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" text="Button" />
+            <Button id="btnTedio" fx:id="btnTedio5" layoutX="770.0" layoutY="534.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="2.0" text="Button" />
+            <Button id="btnMal" fx:id="btnRuim5" layoutX="806.0" layoutY="534.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="5.0" text="Button" />
+            <ImageView fx:id="imgFeliz" fitHeight="33.0" fitWidth="36.0" layoutX="730.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgTedio" fitHeight="33.0" fitWidth="36.0" layoutX="766.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/LifeTime.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgRuim" fitHeight="33.0" fitWidth="36.0" layoutX="802.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/LifeTime%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgFeliz1" fitHeight="33.0" fitWidth="36.0" layoutX="730.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgFeliz2" fitHeight="33.0" fitWidth="36.0" layoutX="730.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgFeliz3" fitHeight="33.0" fitWidth="36.0" layoutX="730.0" layoutY="464.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgFeliz4" fitHeight="33.0" fitWidth="36.0" layoutX="730.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgTedio1" fitHeight="33.0" fitWidth="36.0" layoutX="766.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/LifeTime.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgTedio2" fitHeight="33.0" fitWidth="36.0" layoutX="766.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/LifeTime.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgTedio3" fitHeight="33.0" fitWidth="36.0" layoutX="766.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/LifeTime.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgTedio4" fitHeight="33.0" fitWidth="36.0" layoutX="766.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/LifeTime.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgRuim1" fitHeight="33.0" fitWidth="36.0" layoutX="802.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/LifeTime%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgRuim2" fitHeight="33.0" fitWidth="36.0" layoutX="802.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/LifeTime%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgRuim3" fitHeight="33.0" fitWidth="36.0" layoutX="802.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/LifeTime%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgRuim4" fitHeight="33.0" fitWidth="36.0" layoutX="802.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/LifeTime%20(1).png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnNotificacao" layoutX="970.0" layoutY="32.0" mnemonicParsing="false" onAction="#botaoNotoficacao" prefHeight="46.0" prefWidth="208.0" styleClass="btnNotificacao" stylesheets="@style.css" text="Notificações" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

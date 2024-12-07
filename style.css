@@ -1,0 +1,104 @@
+.backgroundLogin{
+    
+    -fx-background-color: #010D49
+    
+}
+
+.txtUsuario{
+ 
+   
+    
+}
+
+.txtSenha{
+    
+    
+    
+}
+
+.entradaUsuario{
+    
+    -fx-background-color: #ffffff
+    
+    
+}
+
+.entradaSenha{
+    
+    -fx-background-color: #ffffff
+    
+    
+}
+
+.btnEntrar {
+    
+    -fx-background-color: #003399
+    
+}
+
+.imgLogo {
+    
+    
+    
+}
+
+.btnDados{
+    
+    -fx-background-color: #010D49
+    
+    
+}
+
+
+.btnRelatorio{
+    
+   -fx-background-color: #010D49
+}
+
+.btnSaude{
+    
+    -fx-background-color: #010D49
+    
+}
+
+.btnSair{
+    
+    -fx-background-color: #cc0033
+    
+}
+
+.btnNotificacao{
+    
+   -fx-background-color: #010D49
+}
+
+.listEmcional{
+    
+    
+}
+.labelUsuario{
+    
+    
+}
+
+.imgFeliz{
+    
+    
+    
+}
+
+.imgRuim{
+    
+    
+}
+
+.imgTedio{
+    
+    
+}
+
+.painelDados{
+    
+    -fx-background-color: #010D49
+    
+}
