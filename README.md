@@ -4,4 +4,4 @@ O LifeTime é um software que promove bem-estar para usuários em empresas, home
 
 Alguns arquivos não subiu no git por conta do tamanho.
 
-Tecnologias utilizadas Javafx, Apache, NetBeans, Figma.
+Tecnologias utilizadas Javafx, Apache, NetBeans, Figma e SceneBuilder
